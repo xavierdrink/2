@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>QR STORY - Belajar Saling Menghargai</title>
+  <title>CERITA QR STORY 2 - Bau Aneh di Rumah Arga</title>
 
   <style>
 
@@ -19,310 +19,179 @@
 
     body{
       font-family:Arial, Helvetica, sans-serif;
+
       background:
-        linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.75)),
+        linear-gradient(
+          rgba(0,0,0,0.70),
+          rgba(0,0,0,0.85)
+        ),
         url('../assets/Background.jpeg');
+
       background-size:cover;
       background-position:center;
       background-attachment:fixed;
-      color:white;
+
+      color:#f5f5f5;
       overflow-x:hidden;
     }
 
-    .blur{
-      position:fixed;
-      border-radius:50%;
-      filter:blur(120px);
-      opacity:0.35;
-      z-index:0;
-      pointer-events:none;
-    }
-
-    .blur1{
-      width:350px;height:350px;background:#00ffaa;
-      top:-100px;left:-100px;
-    }
-
-    .blur2{
-      width:420px;height:420px;background:#00cfff;
-      bottom:-120px;right:-120px;
-    }
-
     .container{
+      width:92%;
+      max-width:1100px;
+      margin:auto;
+      padding:50px 0 120px;
       position:relative;
       z-index:2;
-      width:92%;
-      max-width:1300px;
-      margin:auto;
-      padding:50px 0 140px;
     }
 
     .title{
       text-align:center;
-      margin-bottom:60px;
+      margin-bottom:45px;
     }
 
     .title h2{
-      font-size:42px;
-      text-shadow:0 0 10px rgba(255,255,255,0.45);
+      font-size:36px;
+      color:#ffffff;
+      text-shadow:0 0 8px rgba(0,0,0,0.6);
+      margin-bottom:10px;
     }
 
-    .story-box{
+    .title h3{
+      font-size:26px;
+      color:#ffd166;
+    }
+
+    .box{
       background:rgba(255,255,255,0.10);
-      backdrop-filter:blur(10px);
-      border:2px solid rgba(255,255,255,0.12);
-      border-radius:35px;
-      padding:40px;
-      margin-bottom:40px;
-      box-shadow:0 0 25px rgba(0,0,0,0.35);
-      transition:0.25s ease;
+      border:1px solid rgba(255,255,255,0.15);
+      border-radius:22px;
+      padding:28px;
+      margin-bottom:22px;
+      backdrop-filter:blur(8px);
+      box-shadow:0 5px 18px rgba(0,0,0,0.35);
     }
 
-    .story-box h3{
-      font-size:38px;
-      margin-bottom:25px;
-      color:#7dff8d;
+    .box h3{
+      font-size:24px;
+      margin-bottom:12px;
+      color:#7ee787;
     }
 
-    .narator{
-      color:#ffe082;
-      font-size:27px;
+    .text{
+      font-size:19px;
       line-height:1.9;
-      margin-bottom:20px;
+      color:#f1f1f1;
     }
 
-    .dialog{
-      font-size:27px;
-      line-height:1.9;
-      margin-left:18px;
-      margin-bottom:18px;
-    }
-
-    .action{
-      font-size:23px;
-      color:#b0bec5;
-      margin-left:35px;
-      margin-bottom:18px;
-      font-style:italic;
-    }
-
-    .moral{
-      background:rgba(255,215,0,0.10);
-      border:2px solid rgba(255,215,0,0.25);
+    .text b{
+      color:#ffffff;
     }
 
     .back-btn{
-  position:fixed;
-  bottom:30px;
-  left:50%;
-  transform:translateX(-50%);
-  z-index:9999; /* INI KUNCINYA */
+      position:fixed;
+      bottom:25px;
+      left:50%;
+      transform:translateX(-50%);
+      z-index:10;
 
-  padding:18px 55px;
-  border:none;
-  border-radius:18px;
-  font-size:28px;
-  font-weight:bold;
-  color:white;
+      padding:16px 45px;
+      border:none;
+      border-radius:15px;
 
-  cursor:pointer;
+      font-size:22px;
+      font-weight:bold;
+      color:white;
+      cursor:pointer;
 
-  background:linear-gradient(to bottom,#ffb347,#ff8c00,#cc6500);
-
-  box-shadow:
-    0 7px 0 #8f4300,
-    0 0 25px rgba(255,140,0,0.65),
-    inset 0 4px 8px rgba(255,255,255,0.45);
-}
+      background:linear-gradient(to bottom,#ffb703,#fb8500,#d97706);
+      box-shadow:0 6px 0 #7a3e00,0 0 20px rgba(255,140,0,0.4);
+    }
 
   </style>
 </head>
-<body>
 
-<div class="blur blur1"></div>
-<div class="blur blur2"></div>
+<body>
 
 <div class="container">
 
-<div class="title">
-<h2>“Belajar Saling Menghargai”</h2>
-</div>
+  <div class="title">
+    <h2>CERITA QR STORY 2</h2>
+    <h3>Bau Aneh di Rumah Arga</h3>
+  </div>
 
-<!-- ADEGAN 1 -->
-<div class="story-box">
-<h3>ADEGAN 1 – Suasana Tenang di Rumah</h3>
+  <!-- CERITA -->
+  <div class="box">
+    <h3>Cerita</h3>
 
+    <div class="text">
 
+      Hari itu, Bu Devy datang ke rumah Arga dan Aisyah. Mereka pun mengobrol dengan santai di ruang tamu. 
+      Namun tiba-tiba, Bu Devy mencium bau yang tidak biasa.<br><br>
 
-<p class="narator">
-Di sebuah rumah yang tenang, Aisyah duduk rapi di dekat meja kecil. Ia memegang buku cerita bergambar yang sangat menarik. Ia membaca dengan penuh perhatian.
-Sesekali, Aisyah tersenyum karena ceritanya menyenangkan.
-Rafa duduk tidak jauh dari Aisyah. Ia duduk santai sambil melihat ke sekeliling. Ia terlihat sedikit bosan.
-Suasana rumah sangat nyaman dan tenang.
-</p>
+      "Wah, Arga, Aisyah... Ibu mencium bau aneh dari tadi. Kalian mencium juga tidak?"<br><br>
 
-<p class="dialog"><b>Aisyah (lembut):</b> “Rafa, aku ingin membaca cerita ini sebentar ya.”</p>
-<p class="dialog"><b>Rafa (singkat):</b> “Iya… baca saja.”</p>
+      "Iya, Bu. Bau apa ya? Kok agak mengganggu hidung," jawab Aisyah.<br><br>
 
+      Arga bercanda, "Jangan lihat Arga dulu ya, Bu. Biasanya kalau ada masalah, Arga yang dituduh duluan."<br><br>
 
+      Mereka pun mencari sumber bau tersebut.<br><br>
 
-<p class="narator">
-Aisyah mulai membaca dengan suara pelan dan jelas. Ia sangat fokus.
-Rafa hanya mengangguk kecil, tetapi tidak benar-benar mendengarkan.
-</p>
+      Aisyah menduga bau berasal dari tong sampah. Bu Devy menjelaskan bahwa sampah yang menumpuk bisa menimbulkan bau dan kuman.<br><br>
 
-</div>
+      Arga berkata bahwa ia sering menekan sampah agar muat lagi. Aisyah tertawa dan berkata itu bukan solusi.<br><br>
 
-<!-- ADEGAN 2 -->
-<div class="story-box">
-<h3>ADEGAN 2 – Rafa Kurang Menghargai</h3>
+      Namun bau masih belum hilang.<br><br>
 
-<p class="narator">
-Saat Aisyah membaca, Rafa mulai merasa bosan.
-Ia melihat ke arah lain, memainkan tangannya, dan tidak memperhatikan.
-</p>
+      Mereka menduga berasal dari dapur. Ternyata piring kotor bisa mengundang lalat dan kuman.<br><br>
 
-<p class="dialog"><b>Rafa (nada datar):</b> “Iya… iya…”</p>
+      Arga bercanda tentang lalat yang datang seperti ke kantin gratis.<br><br>
 
-<p class="narator">
-Aisyah berhenti membaca. Ia menutup bukunya perlahan.
-Ia tidak marah, tetapi terlihat sedikit kecewa.
-</p>
+      Aisyah dan Bu Devy tertawa, lalu menjelaskan bahwa dapur harus selalu bersih.<br><br>
 
+      Mereka lalu mencari ke kamar Arga.<br><br>
 
+      Aisyah mengatakan kamar Arga sangat berantakan sampai lantainya tidak terlihat.<br><br>
 
-<p class="dialog"><b>Aisyah (lembut):</b> “Rafa, kalau seseorang sedang berbicara…”</p>
+      Arga berkata itu adalah "strategi penyimpanan tanpa lemari".<br><br>
 
-<p class="dialog"><b>Aisyah:</b> “sebaiknya kita mendengarkan dengan baik.”</p>
+      Bu Devy tertawa dan bertanya manfaat kamar bersih. Arga menjawab bahwa kamar bersih membuat nyaman dan barang mudah ditemukan.<br><br>
 
-<p class="dialog"><b>Aisyah:</b> “Itu namanya saling menghargai.”</p>
+      Tiba-tiba Aisyah menemukan sesuatu di bawah sofa.<br><br>
 
-<p class="narator">
-Rafa terdiam. Ia mulai berpikir.
-</p>
-</div>
+      Ternyata sebuah kaus kaki.<br><br>
 
-<!-- ADEGAN 3 -->
-<div class="story-box">
-<h3>ADEGAN 3 – Rafa Mencoba Bercerita</h3>
+      Arga terkejut karena itu kaus kaki yang hilang.<br><br>
 
+      Bu Devy menebak itulah sumber bau dari tadi.<br><br>
 
-<p class="narator">
-Beberapa saat kemudian, Rafa mencoba berbicara.
-</p>
+      Arga mengaku bahwa kaus kaki itu miliknya.<br><br>
 
-<p class="dialog"><b>Rafa (semangat):</b> “Aisyah, aku juga mau cerita!”</p>
+      Bu Devy mengingatkan bahwa kaus kaki kotor harus segera dicuci.<br><br>
 
-<p class="narator">
-Aisyah langsung melihat ke arah Rafa dan mendengarkan dengan baik.
-</p>
+      Arga berjanji akan lebih rajin menjaga kebersihan rumah, mencuci kaus kaki, dan membuang sampah dengan benar.<br><br>
 
-<p class="dialog"><b>Aisyah (ramah):</b> “Iya, Rafa. Aku dengarkan.”</p>
+      Aisyah senang karena misteri bau akhirnya terpecahkan.<br><br>
 
-<p class="narator">
-Rafa mulai bercerita, tetapi sebentar saja. Ia lalu terdiam.
-</p>
+      Sejak itu, rumah menjadi lebih bersih, sehat, dan nyaman.
 
+    </div>
+  </div>
 
-<p class="narator">
-Rafa merasa bahwa tadi Aisyah sudah mendengarkan dengan baik.
-Ia mulai sadar bahwa ia belum melakukan hal yang sama.
-</p>
-</div>
+  <!-- PESAN MORAL -->
+  <div class="box">
+    <h3>Pesan Moral</h3>
 
-<!-- ADEGAN 4 -->
-<div class="story-box">
-<h3>ADEGAN 4 – Rafa Menyadari Kesalahan</h3>
-
-
-<p class="dialog"><b>Rafa (pelan):</b> “Oh… maaf ya, Aisyah. Aku tadi tidak mendengarkan ceritamu.”</p>
-
-<p class="narator">
-Aisyah tersenyum lembut.
-</p>
-
-<p class="dialog"><b>Aisyah:</b> “Tidak apa-apa, Rafa.”</p>
-<p class="dialog"><b>Aisyah:</b> “Yang penting kita mau belajar untuk saling menghargai.”</p>
-
-<p class="narator">
-Rafa mengangguk pelan dan mulai mengerti.
-</p>
-</div>
-
-<!-- ADEGAN 5 -->
-<div class="story-box">
-<h3>ADEGAN 5 – Belajar Saling Menghargai</h3>
-
-
-<p class="dialog"><b>Rafa:</b> “Sekarang aku akan mendengarkan ceritamu dengan baik.”</p>
-<p class="dialog"><b>Aisyah (senang):</b> “Baik, aku lanjutkan ya.”</p>
-
-
-<p class="narator">
-Aisyah kembali membaca. Suaranya pelan dan jelas.
-Rafa duduk lebih rapi. Ia menghadap Aisyah.
-</p>
-
-<p class="action">(Angguk pelan)</p>
-
-<p class="narator">
-Rafa mendengarkan dengan tenang. Ia tidak lagi melihat ke arah lain.
-Sesekali ia mengangguk, tanda ia benar-benar mendengarkan.
-Suasana menjadi lebih nyaman dan damai.
-</p>
-</div>
-
-<!-- ADEGAN 6 -->
-<div class="story-box">
-<h3>ADEGAN 6 – Perubahan Sikap Rafa</h3>
-
-
-<p class="narator">
-Setelah Aisyah selesai membaca, ia menutup bukunya perlahan.
-</p>
-
-<p class="dialog"><b>Aisyah:</b> “Terima kasih ya, Rafa. Kamu sudah mau mendengarkan aku.”</p>
-<p class="dialog"><b>Rafa (tersenyum):</b> “Iya, Aisyah.”</p>
-
-
-<p class="dialog"><b>Rafa:</b> “Ternyata mendengarkan itu penting ya.”</p>
-<p class="dialog"><b>Aisyah:</b> “Iya, supaya kita saling menghargai.”</p>
-<p class="dialog"><b>Rafa:</b> “Dan kita jadi lebih dekat.”</p>
-<p class="dialog"><b>Aisyah:</b> “Betul sekali.”</p>
-</div>
-
-<!-- ADEGAN 7 -->
-<div class="story-box">
-<h3>ADEGAN 7 – Penutup</h3>
-
-
-<p class="narator">
-Sejak saat itu, Rafa selalu berusaha mendengarkan saat orang lain berbicara.
-Ia tidak lagi mengabaikan temannya.
-Aisyah pun merasa senang karena Rafa sudah berubah menjadi lebih baik.
-Mereka belajar bahwa saling menghargai itu penting dan bisa dimulai dari hal sederhana.
-</p>
-</div>
-
-<!-- MORAL -->
-<div class="story-box moral">
-<h3>Pesan Moral</h3>
-
-<p class="narator">
-Saling menghargai adalah sikap yang sangat penting dalam kehidupan sehari-hari. Kita bisa melakukannya dengan cara sederhana, seperti mendengarkan saat orang lain berbicara, tidak memotong pembicaraan, dan tidak mengabaikan teman. Jika kita mau mendengarkan dengan baik, orang lain akan merasa senang dan dihargai. Sikap ini juga membuat kita memiliki banyak teman dan hubungan yang baik. Selain itu, saling menghargai dapat membuat suasana menjadi lebih nyaman dan damai, baik di rumah maupun di sekolah. Oleh karena itu, kita harus selalu bersikap sopan, sabar, dan menghargai orang lain dalam setiap keadaan.
-</p>
+    <div class="text">
+      Menjaga kebersihan rumah adalah tanggung jawab semua anggota keluarga. 
+      Rumah yang bersih membuat kita sehat, nyaman, dan terhindar dari penyakit.
+    </div>
+  </div>
 
 </div>
 
-</div>
-
-<button
-    class="back-btn"
-    onclick="window.location.href='../index.html'">
-
-    ⬅ KEMBALI
-
-  </button>
+<button class="back-btn" onclick="window.location.href='../index.html'">
+  ⬅ KEMBALI
+</button>
 
 </body>
 </html>
